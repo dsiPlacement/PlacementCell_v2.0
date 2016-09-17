@@ -1,0 +1,31 @@
+## Students
+
+- Registration
+  - Input Elements
+    - Email
+    - USN
+  - Check if email already registered(use API to check)
+  - Check if USN exists and reply back(use API to check)
+  - Send mail with temporary link that is deleted after password is set
+- Temporary link to define password
+  - Input Elements
+    - Password
+    - Confirm Password
+  - Check if password and confirm password are equal and register user
+  - Redirect to `Profile` to setup profile
+- Login
+  - Input Elements
+    - USN
+    - Password
+  - Check if auth successful, redirect to `Dashboard`
+  - If error, display error message and stay on same page
+- Profile
+  - Setup profile based on [PROFILE_DETAILS.md](./PROFILE_DETAILS.md)
+  - Redirect to `Dashboard` on finishing profile setup
+- Dashboard
+  - Display any company | admin announcement
+    - [To be explored based on possible POSTs that can be made by company and admin]
+  - Provide logout option
+
+- For any doubts on this , raise a issue with the Heading containing `FEATURES_STUDENT.md`
+- DO NOT Modify this file without explaining the reason in the issue
