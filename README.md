@@ -13,6 +13,6 @@
 
 Refer in order
 - [FLOW.md](./FLOW.md) shows how the entire flow for web application follows
-- [FEATURES_STUDENTS.md](./student/FEATURES_STUDENTS.md) shows the current features of student application
-- [FEATURES_COMPANY.md](./company/FEATURES_COMPANY.md) shows the current features of company application
+- [FEATURES_STUDENTS.md](./prototype/student/FEATURES_STUDENTS.md) shows the current features of student application
+- [FEATURES_COMPANY.md](./prototype/company/FEATURES_COMPANY.md) shows the current features of company application
 - [TODO.md](./TODO.md) shows the tasks to finish
